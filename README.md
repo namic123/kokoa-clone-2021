@@ -1,3 +1,3 @@
 # kokoa clone 2021 
 
-My first README file!
+Made this app by only HTML & CSS 
