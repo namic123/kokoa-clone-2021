@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import "./reset.css";
 @import "./variable.css";
-@import "./loginUI/status-bar.css";
-@import "./loginUI/welcome-header.css";
-@import "./loginUI/loginform.css";
+
+/*component*/
+@import "./component/status-bar.css";
+@import "./component/nav.css";
+
+/*screen*/
+@import "./screen/login.css";
 
 
 body{
     font-family: 'Oswald', sans-serif;
     font-size:15px;
+}
+nav{
+    color:black;
 }
