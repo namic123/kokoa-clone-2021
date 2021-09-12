@@ -1,8 +1,49 @@
 .nav{
-    background-color:#f9f9fa;  
-    padding:20px 30px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    padding:0px 0px;
 }
 .nav__list{
     display:flex;
-    justify-content: space-between;   
+
+}
+.nav__list .nav__btn{
+    width:25%;
+    display:flex;
+    justify-content: center;
+    padding:18px 0px;
+    background-color:rgb(156, 156, 156,0.2); 
+    border-top: 1px solid rgb(156, 156, 156,0.5);
+    
+}
+.nav__link{
+    color:black;
+}
+.nav__chat-comments{
+background-color: tomato;
+display: flex;
+width: 20px;
+height: 20px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+color:white;
+position:absolute;
+font-size: 10px;
+font-weight: bold;
+transform: translate(12px,-14px);
+}
+.nav__list .nav__btn:last-child .nav__link{
+    position:relative;
+}
+.nav__setting-comments{
+    display: block;
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position:absolute;
+    left:22px;
+    bottom:15px;
 }

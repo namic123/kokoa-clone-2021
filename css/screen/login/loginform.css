@@ -2,13 +2,22 @@
     display:flex;
     flex-direction: column;
     padding:0px 30px;
-    
+align-items: center;
+  
 }
 #login-form input{
     padding:10px;
     border:none;
     margin:2px 0px;
+    width:60%;
 }
+@media screen and (max-width: 400px){
+    #login-form input{
+        width:90%;
+    }
+}
+    
+
 #login-form input:nth-child(3){
 margin-top:10px;
 }
