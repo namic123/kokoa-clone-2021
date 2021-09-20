@@ -5,10 +5,20 @@
 /*component*/
 @import "./component/status-bar.css";
 @import "./component/nav.css";
-
+@import "./component/user-component.css";
+@import "./component/badge.css";
+@import "./component/row-icons.css";
+@import "./component/alt-screen-header.css";
+@import "./component/no-mobile.css";
 /*screen*/
 @import "./screen/login.css";
-
+@import "./screen/screen-header.css";
+@import "./screen/friends.css";
+@import "./screen/chat.css";
+@import "./screen/search.css";
+@import "./screen/more.css";
+@import "./screen/settings.css";
+@import "./screen/chatting.css";
 
 body{
     font-family: 'Oswald', sans-serif;
@@ -16,4 +26,7 @@ body{
 }
 nav{
     color:black;
+}
+.main-screen{
+    padding:0px var(--horizontal-space);
 }

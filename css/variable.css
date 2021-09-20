@@ -1,4 +1,7 @@
 :root{
     --yellow:rgba(253, 239, 40, 0.979);
     --nav-bg:rgb(156, 156, 156,0.4);
+    --horizontal-space:15px;
+    --main-border:1px solid rgba(0, 0, 0, 0.2);
+    --grey:rgba(0,0,0,0.4);
 }

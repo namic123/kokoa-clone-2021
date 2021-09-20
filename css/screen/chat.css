@@ -1,0 +1,8 @@
+.chat-component>.user-component__column:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-component__column:last-child>div{
+    margin-top: 8px;
+}
